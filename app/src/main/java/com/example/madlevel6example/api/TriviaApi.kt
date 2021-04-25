@@ -11,7 +11,7 @@ class TriviaApi {
         private const val baseUrl = "http://numbersapi.com/"
 
         /**
-         * @return [TriviaApiService] The service class off the retrofit client.
+         * @return [TriviaApiService] The service class off the Retrofit client.
          */
         fun createApi(): TriviaApiService {
             // Create an OkHttpClient to be able to make a log of the network traffic.
